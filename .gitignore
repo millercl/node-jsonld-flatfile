@@ -1,0 +1,10 @@
+coverage/
+npm-debug.log
+node_modules
+.npmrc
+*~
+*.swp
+*.swo
+\#*
+test/assets/flatten1
+test/assets/flatten2

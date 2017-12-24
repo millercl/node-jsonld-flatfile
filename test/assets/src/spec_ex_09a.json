@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "_id": "@id",
+    "_graph": "@graph",
+    "knows": "http://xmlns.com/foaf/0.1/knows",
+    "name": "http://xmlns.com/foaf/0.1/name"
+  },
+  "_graph": [
+    {
+      "_id": "_:b0",
+      "name": "Dave Longley"
+    },
+    {
+      "_id": "http://me.markus-lanthaler.com/",
+      "knows": {
+        "_id": "_:b0"
+      },
+      "name": "Markus Lanthaler"
+    }
+  ]
+}

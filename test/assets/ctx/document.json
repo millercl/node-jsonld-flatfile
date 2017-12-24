@@ -1,0 +1,8 @@
+{
+  "@graph": [
+    {
+      "@id": "document",
+      "rdf:value": "test"
+    }
+  ]
+}
