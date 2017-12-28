@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "a": "@type",
+    "name": "http://xmlns.com/foaf/0.1/name",
+    "url": "@id"
+  },
+  "@graph": [
+    {
+      "a": "http://xmlns.com/foaf/0.1/Person",
+      "name": "Gregg Kellogg",
+      "url": "http://example.com/about#gregg"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "homepage": {
+      "@id": "http://schema.org/url",
+      "@type": "@id"
+    },
+    "image": {
+      "@id": "http://schema.org/image",
+      "@type": "@id"
+    },
+    "name": "http://schema.org/name"
+  },
+  "@graph": [
+  ]
+}

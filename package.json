@@ -1,0 +1,48 @@
+{
+  "name": "jsonld-flatfile",
+  "version": "1.0.1",
+  "description": "stringify jsonld",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/millercl/node-jsonld-flatfile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/millercl/node-jsonld-flatfile/issues"
+  },
+  "main": "stringify.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "json-stable-stringify": "^1.0.1",
+    "jsonld": "^0.4.12"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jscs-stylish": "^1.4.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-jslint": "^1.0.10",
+    "gulp-jsonlint": "^1.2.0",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "jslint": "^0.11.0",
+    "run-sequence": "^2.2.0",
+    "tape": "^4.7.0"
+  },
+  "scripts": {
+    "lint": "gulp src --silent",
+    "pretest": "gulp --silent",
+    "test": "tape test/*.js",
+    "posttest": "gulp src --silent"
+  },
+  "keywords": [
+    "flatfile",
+    "gulpplugin",
+    "jsonld"
+  ],
+  "author": "Christopher Miller <cmill4ed@mail.umw.edu>",
+  "license": "CC0-1.0"
+}
